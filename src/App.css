@@ -1,0 +1,53 @@
+
+.containers img{
+  width: 268px;
+  height: 228px;
+  margin: 5px 5px 5px 8px;
+  border-radius: 20px;
+  /* block-size: 0in; */
+  object-fit: fill;
+}
+.containers{
+  display: flex;
+  flex-direction: row;
+  margin-block: 20px;
+  margin-inline: 17px;
+  /* border: solid blue; */
+  border-radius: 10px;
+}
+.app{
+  padding: 10px;
+}
+.nav{
+  margin: 10px 30px 10px 20px;
+  font-size: larger;
+  font-family: cursive;
+  color: aquamarine;
+  justify-content: space-between;
+  align-items: center;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+h6{
+  font-size: larger;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: blue;
+}
+span{
+  color: rgb(175, 175, 115);
+  font-weight: 600;
+}
+h6:hover{
+  color: rgb(42, 94, 186);
+}
+h6:active{
+  color: rgb(29, 147, 149);
+}
+h4:hover{
+  color: yellowgreen;
+}
